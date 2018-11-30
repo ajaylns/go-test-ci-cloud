@@ -6,5 +6,7 @@ go:
  - 1.5.1
  - 1.11.2
 
+notifications:
+  slack: horangiteam:H6XHBpsqUOruq8vQRME0g63N
 script:
  - go test -v ./...
